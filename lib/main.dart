@@ -17,7 +17,8 @@ class MyApp extends StatelessWidget {
             //child: Text('Hey Jude, Lale'),
             //child: Text(wordPair.asPascalCase),
             //child: RandomWords(),
-            child: _container,
+            //child: _container,
+            child: Image(image: AssetImage("images/big_sur.jpg"))
         ),
       ),
     );
